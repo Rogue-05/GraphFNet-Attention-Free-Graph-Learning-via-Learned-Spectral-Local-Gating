@@ -1,0 +1,7 @@
+Dataset,Model,HiddenDim,NumLayers,Params,Seed,BestVal,TestAP,BestEpoch,TotalTime,PeakMemoryMB,GateCollapsed,MaxEpochs,Patience,BatchSize,AccumSteps,EffectiveBatch
+LRGB,HybridGraphFNet_Best_Peptides,128,4,328603,0,0.6385,0.627,66,6208.38,221.63,False,150,20,8,4,32
+LRGB,HybridGraphFNet_Best_Peptides,128,4,328603,1,0.643,0.6317,70,6508.6,225.69,False,150,20,8,4,32
+LRGB,HybridGraphFNet_Best_Peptides,128,4,328603,2,0.6348,0.6146,95,8311.32,225.67,False,150,20,8,4,32
+LRGB,HybridGraphFNet_Best_Peptides,128,4,328603,0,0.6385,0.627,66,6208.38,221.63,False,150,20,8,4,32
+LRGB,HybridGraphFNet_Best_Peptides,128,4,328603,1,0.643,0.6317,70,6508.6,225.69,False,150,20,8,4,32
+LRGB,HybridGraphFNet_Best_Peptides,128,4,328603,2,0.6348,0.6146,95,8311.32,225.67,False,150,20,8,4,32

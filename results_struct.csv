@@ -1,0 +1,4 @@
+Dataset,Model,HiddenDim,NumLayers,Params,Seed,BestVal,TestMAE,BestEpoch,TotalTime,PeakMemoryMB,GateCollapsed,MaxEpochs,Patience,BatchSize,AccumSteps,EffectiveBatch
+peptides-struct,HybridGraphFNet_Best_Peptides,128,4,328732,0,0.2571776000177947,0.26377462126164414,41,5006.100587129593,235.384765625,False,150,20,8,4,32
+peptides-struct,HybridGraphFNet_Best_Peptides,128,4,328732,1,0.2613973387164243,0.2655029422937162,43,5261.490280866623,240.56005859375,False,150,20,8,4,32
+peptides-struct,HybridGraphFNet_Best_Peptides,128,4,328732,2,0.2601051523367359,0.2696382804062171,42,5198.43328499794,226.6533203125,False,150,20,8,4,32
