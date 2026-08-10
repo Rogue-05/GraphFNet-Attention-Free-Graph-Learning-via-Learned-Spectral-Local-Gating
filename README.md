@@ -22,3 +22,15 @@ The implementation relies on PyTorch, PyTorch Geometric (PyG), and RDKit. To rep
 
 ```bash
 pip install torch torch-geometric scikit-learn rdkit tqdm numpy pandas matplotlib
+
+
+Save the file.
+
+---
+
+### 4. Check what you changed
+
+In the terminal:
+
+```bash
+git diff
