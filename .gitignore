@@ -72,6 +72,7 @@ eigenbasis_cache*/
 *.zip
 *.tar.gz
 papervizagent_candidates*/
+paper/
 
 # ------------------------------------------------------------------------------
 # 6. Python & Jupyter Artifacts
