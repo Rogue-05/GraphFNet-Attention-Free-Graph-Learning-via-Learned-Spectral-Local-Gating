@@ -2,12 +2,25 @@
 
 Official research repository for **GraphFNet**, an attention-free graph neural network architecture that replaces the quadratic memory footprint of dense self-attention with learned global spectral mixing over the graph Laplacian eigenbasis, adaptively gated with local message passing.
 
+<p align="center">
+  <img src="figures/methodology_picture.png" width="95%" alt="GraphFNet Architecture Diagram">
+</p>
+
 ---
 
 ## 📁 Repository Structure
 
 ```
 .
+├── figures/                                # Architecture diagrams & benchmark plots
+│   ├── methodology_picture.png             # GraphFNet architecture diagram
+│   ├── exp1_isolated_global_branch.png     # Isolated global branch VRAM scaling
+│   ├── exp2_eigendecomp_cost.png           # Eigendecomposition precomputation scaling
+│   ├── exp3_full_sparse_models.png         # Full 4-layer model peak VRAM scaling
+│   ├── erf_func.png / erf_struct.png       # Effective Receptive Field (ERF) heatmaps
+│   ├── k_sensitivity.png                   # LapPE k-sensitivity analysis
+│   └── neighbors_match_results.png         # Tree-NeighborsMatch diagnostic results
+│
 ├── notebooks/                              # Benchmark & evaluation experiments
 │   ├── 01_peptides_func.ipynb              # LRGB Peptides-func multi-label classification
 │   ├── 02_peptides_struct.ipynb            # LRGB Peptides-struct 3D regression
