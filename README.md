@@ -8,13 +8,6 @@ Official research repository for **GraphFNet**, an attention-free graph neural n
 
 ```
 .
-├── paper/                                  # LaTeX source & figures for manuscript
-│   ├── main.tex                            # Main paper LaTeX source
-│   ├── sample-base.bib                     # Verified bibliography file
-│   ├── math_commands.tex                   # Mathematical notation macros
-│   ├── tmlr.sty / tmlr.bst                 # Style template files
-│   └── *.png                               # Publication-ready figures
-│
 ├── notebooks/                              # Benchmark & evaluation experiments
 │   ├── 01_peptides_func.ipynb              # LRGB Peptides-func multi-label classification
 │   ├── 02_peptides_struct.ipynb            # LRGB Peptides-struct 3D regression
