@@ -15,7 +15,7 @@
 *.numbers
 
 # ------------------------------------------------------------------------------
-# 2. Assignment / Unrelated Scratch Files
+# 2. Assignment / Unrelated Scratch Files & Working Notes
 # ------------------------------------------------------------------------------
 *BananaProblem*
 *banana*
@@ -25,6 +25,10 @@ OnePager*
 *Summary*.docx
 *Submission*.pptx
 *ProjectReview*.pptx
+*ContextDump*
+*Context_Dump*
+paper_notes*
+model.py
 
 # ------------------------------------------------------------------------------
 # 3. LaTeX Build Artifacts & Logs
