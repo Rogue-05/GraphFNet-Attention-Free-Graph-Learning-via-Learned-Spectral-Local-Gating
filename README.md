@@ -25,8 +25,7 @@ Official research repository for **GraphFNet**, an attention-free graph neural n
 │   ├── 07_ablations.ipynb                  # Full architectural ablation studies
 │   ├── 08_gate_analysis.ipynb              # Emergent layer-wise spectral-to-local routing analysis
 │   ├── 09_neighbors_match.ipynb            # Tree-NeighborsMatch over-squashing diagnostic
-│   ├── 10_vram_scaling_benchmark.ipynb     # 5-model VRAM & latency scaling benchmarks
-│   └── auxiliary/                          # Supplementary notebooks & diagnostics
+│   └── 10_vram_scaling_benchmark.ipynb     # Memory & throughput scaling benchmarks
 │
 ├── scripts/                                # Standalone diagnostic & analysis scripts
 │   ├── erf_analysis.py                     # Effective Receptive Field (ERF) diagnostic
@@ -42,7 +41,7 @@ Official research repository for **GraphFNet**, an attention-free graph neural n
 
 ## 🚀 Key Results & Highlights
 
-- **Attention-Free Efficiency**: Replaces dynamic $\mathcal{O}(N^2)$ self-attention with static spectral projections ($\mathcal{O}(N \cdot H)$ activation memory), achieving up to **$102.7\times$** memory reduction for isolated global branches at $N=10{,}000$ and **$14.0\times$** full-model reduction at $N=5{,}000$.
+- **Attention-Free Efficiency**: Replaces dynamic $\mathcal{O}(N^2)$ self-attention with static spectral projections ($\mathcal{O}(N \cdot H)$ activation memory), achieving up to **$102.7\times$** memory reduction for isolated global branches at $N=10{,}000$ and **$3.78\times$** full-model reduction at $N=5{,}000$.
 - **NeuroGraph Connectomics ($N=1{,}000$)**:
   - **HCP-Gender**: **81.17% ± 1.90%** test accuracy (State-of-the-Art; outperforming GraphGPS at 76.85%, Graph-Mamba at 77.16%, and BrainMAP at 78.92%).
   - **HCP-Task**: **93.74% ± 0.54%** test accuracy across 7 cognitive task states.
