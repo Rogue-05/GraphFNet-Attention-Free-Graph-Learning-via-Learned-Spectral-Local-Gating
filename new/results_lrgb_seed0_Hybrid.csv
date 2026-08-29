@@ -1,0 +1,2 @@
+Dataset,Model,HiddenDim,NumLayers,Params,Seed,BestVal,BestTest,BestEpoch,TotalTime,PeakMemoryMB
+LRGB,HybridGraphFNet_Peptides,128,4,265998,0,0.5320391230818121,0.5215474266779847,36,4103.753294706345,341.669921875
